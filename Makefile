@@ -32,4 +32,4 @@ example/%: dependencies examples/%/Makefile
 # Target: example
 # Run all examples.
 .PHONY: example
-example: $(wildcard examples/*)
+example: $(addprefix example/,$(notdir $(wildcard examples/*)))
