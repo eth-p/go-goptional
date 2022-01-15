@@ -14,10 +14,10 @@ import (
 
 ## Why goptional?
 
-[x] Prevents you from using uninitialized values. 
-[x] No code generation required.
-[x] Type-safe API.
-[ ] Supports marshalling and unmarshalling. (TODO)
+- [x] Prevents you from using uninitialized values. 
+- [x] No code generation required.
+- [x] Type-safe API.
+- [ ] Supports marshalling and unmarshalling. (TODO)
 
 ## Example
 
